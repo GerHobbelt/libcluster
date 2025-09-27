@@ -50,7 +50,7 @@ template <class WJ, class WT, class CT> double vbeY (
     const MatrixXd& Wj,           // Top-level observations for group j
     const vMatrixXd& qZj,         // Bottom-level cluster labels for group j
     const WJ& weightsj,           // Group top-level cluster weights
-    const vector<WT>& weights_t,  // Bottom-level cluster proportion/paramters
+    const vector<WT>& weights_t,  // Bottom-level cluster proportion/parameters
     const vector<CT>& clusters_t, // Top-level cluster parameters
     MatrixXd& qYj                 // Top-level cluster assignments for group j
     )
